@@ -1,20 +1,20 @@
 #!/bin/bash
 ##############################################################################
-# SHORTCUTS
+# Горячие клавиши
 ##############################################################################
 
 
-CTRL+A  # move to beginning of line
-CTRL+B  # moves backward one character
-CTRL+C  # halts the current command
-CTRL+D  # deletes one character backward or logs out of current session, similar to exit
-CTRL+E  # moves to end of line
-CTRL+F  # moves forward one character
-CTRL+G  # aborts the current editing command and ring the terminal bell
-CTRL+J  # same as RETURN
-CTRL+K  # deletes (kill) forward to end of line
-CTRL+L  # clears screen and redisplay the line
-CTRL+M  # same as RETURN
+CTRL+A  # перейти к началу строки
+CTRL+B  # перемещение назад на один символ
+CTRL+C  # прервать выполнение текущей команды
+CTRL+D  # удаляет один символ назад или выходит из текущей сессии, аналогично выходу
+CTRL+E  # перейти в конец строки
+CTRL+F  # вперед на один символ
+CTRL+G  # прерывает текущую команду редактирования и воспроизводит звуковой сигнал в терминале
+CTRL+J  # прекращает поиск и позволяет отредактировать найденную команду. Если поиск не производился, то аналогично нажатию return
+CTRL+K  # удаляет всё, до конца строки (EOL, а не на экране!)
+CTRL+L  # очищает экран. Аналог команды clear
+CTRL+M  # аналогично нажатию return
 CTRL+N  # next line in command history
 CTRL+O  # same as RETURN, then displays next line in history file
 CTRL+P  # previous line in command history
